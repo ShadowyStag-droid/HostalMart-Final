@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart - HostelMart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-content">
+      <h1>🛒 Your Cart</h1>
+      <p class="tagline">Review your items before checkout</p>
+    </div>
+    <nav class="nav-buttons">
+      <a href="index.html" class="nav-btn">Continue Shopping</a>
+      <a href="orders.html" class="nav-btn">My Orders</a>
+    </nav>
+  </header>
+
+  <main class="cart-items">
+    <div id="cartItems"></div>
+
+    <section class="checkout-section">
+      <h2>Checkout Details</h2>
+      <div class="user-info form-grid">
+        <input type="text" id="userName" placeholder="Your Name" required />
+        <input type="text" id="userRoom" placeholder="Room Number" required />
+        <input type="tel" id="userMobile" placeholder="Mobile Number" required />
+        <label style="display:flex; align-items:center; gap:5px;">
+          <input type="checkbox" id="rememberMe" /> Remember Me
+        </label>
+      </div>
+      <button id="placeOrderBtn" class="nav-btn" style="margin-top:10px;">Place Order</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 HostelMart</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
